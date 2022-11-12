@@ -23,6 +23,23 @@ namespace StackandQueues
             }
             Console.WriteLine($"{data} Inserted into Queue");
         }
+        public void Dequeue()
+        {
+            if (this.front == null)
+            {
+                Console.WriteLine(" Queue is Empty");
+                return;
+            }
+            Node temp = this.front;
+            this.front = this.front.next;
+
+            if (this.front == null)
+            {
+                this.rear = null;
+            }
+
+            Console.WriteLine("Element deleted is {0}", temp.data);
+        }
         public void display()
         {
             int i = 1;
@@ -43,4 +60,3 @@ namespace StackandQueues
         }
     }
 }
-    

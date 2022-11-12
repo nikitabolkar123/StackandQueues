@@ -4,6 +4,7 @@ namespace StackandQueues
 {
     internal class Program
     {
+
         static void Main(string[] args)
         {
             //Stack stack = new Stack();
@@ -25,6 +26,12 @@ namespace StackandQueues
             queue.Enqueue(30);
             queue.Enqueue(70);
             queue.display();
+            queue.Dequeue();
+            queue.display();
+            queue.Dequeue();
+            queue.display();
+            queue.Dequeue();
+            queue.display(); ;
         }
     }
 }
