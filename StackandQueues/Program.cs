@@ -11,6 +11,13 @@ namespace StackandQueues
             stack.push(30);
             stack.push(70);
             stack.display();
+            stack.peak();
+            stack.pop();
+            stack.peak();
+            stack.pop();
+            stack.peak();
+            stack.pop();
+            stack.display();
         }
     }
 }
