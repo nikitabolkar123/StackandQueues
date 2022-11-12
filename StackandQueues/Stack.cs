@@ -7,7 +7,6 @@ namespace StackandQueues
 {
     internal class Stack
     {
-
         public Node top;
 
         public Stack()
